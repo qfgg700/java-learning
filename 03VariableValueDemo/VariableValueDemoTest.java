@@ -8,12 +8,15 @@ public class VariableValueDemoTest{
 
         double height = 177.5;
 
+        float weight = 64.5F;
+
         boolean flat = true;
 
         System.out.println(name);
         System.out.println(age);
         System.out.println(gender);
         System.out.println(height);
+        System.out.println(weight);
         System.out.println(flat);
     }
 }
