@@ -8,8 +8,12 @@ public class Test1 {
         System.out.println("输入一个三位数：");
         int number = sc.nextInt();
 
-        System.out.println(number % 10);//个位
-        System.out.println(number / 10 % 10);//十位
-        System.out.println(number / 100 % 10);//百位
+        int dig_1 = number % 10;
+        int dig_2 = number / 10 % 10;
+        int dig_3 = number /100 % 10;
+
+        System.out.println("个位是：" + dig_1);
+        System.out.println("十位是：" + dig_2);
+        System.out.println("百位是：" + dig_3);
     }
 }
